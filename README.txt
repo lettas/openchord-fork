@@ -1,3 +1,5 @@
+This project is a fork of Open Chord Project (http://open-chord.sourceforge.net/).
+
 Open Chord is released under GNU General Public License. A copy of it is
 contained in the archives in a file named license.txt.
 A copy of the license can be found at http://www.gnu.org/copyleft/gpl.html.
