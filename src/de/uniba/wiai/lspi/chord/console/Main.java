@@ -125,6 +125,8 @@ public class Main {
 
 		commandMapping.put(ShowEntries.COMMAND_NAME, ShowEntries.class
 				.getName());
+		commandMapping.put(ShowEntriesNetworkLocalNode.COMMAND_NAME, ShowEntriesNetworkLocalNode.class
+				.getName());
 
 		/*
 		 * Commands to create a node that connects to a remote chord network.
