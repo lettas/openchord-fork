@@ -33,6 +33,7 @@ import static de.uniba.wiai.lspi.util.logging.Logger.LogLevel.INFO;
 import java.io.Serializable;
 import java.util.HashSet;
 import java.util.List;
+import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.Executor;
 import java.util.concurrent.ExecutorService;
@@ -1034,4 +1035,11 @@ public final class ChordImpl implements Chord, Report, AsynChord {
 		return ChordRemoveFuture.create(this.asyncExecutor, this, key, entry);
 	}
 
+    /**
+     * return local repository.
+     * @return
+     */
+    public Map<ID, Set<Entry>> getEntries() {
+        return this.entries.getEntries();
+    }
 }
