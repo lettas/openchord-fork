@@ -1,14 +1,14 @@
 <!--
      ANT can be found @ http://jakarta.apache.org/ant/index.html
 -->
-<project name="Open Chord 1.0.5" default="main" basedir=".">
+<project name="Open Chord 1.0.5 - forked by t.matsuoka" default="main" basedir=".">
 
 	<!-- set global properties for this build -->
 	<property name="srcdir" value="src"/>
 	<property name="dstdir" value="build/classes"/>
 	<property name="impdir" value="lib"/>
 	<property name="distdir" value="dist"/>
-	<property name="dist_file" value="openchord_1.0.5.jar"/>	
+	<property name="dist_file" value="openchord_1.0.5.1.jar"/>	
 	<property name="docdir" value="docs/api"/>
 
 	<target name="init" depends="clean">
